@@ -1,5 +1,5 @@
 const textElement = document.querySelector('.typing-text');
-const text = "Sridevi";
+const text = "Portfolio";
 let index = 0;
 let isTyping = true;
 
@@ -20,7 +20,7 @@ function type() {
         isTyping = true;
     }
 }
-setInterval(type, 200);
+setInterval(type, 180);
 
 const textToType = "MERN Stack Developer";
         let currentIndex = 0;
