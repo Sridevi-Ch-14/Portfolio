@@ -22,20 +22,8 @@ function type() {
 }
 setInterval(type, 180);
 
-const textToType = "MERN Stack Developer";
-        let currentIndex = 0;
-        const typingHeader = document.getElementById('typing-header');
 
-        function typeText() {
-            if (currentIndex < textToType.length) {
-                typingHeader.textContent += textToType[currentIndex];
-                currentIndex++;
-                setTimeout(typeText, 100); 
-            }
-        }
-        window.onload = typeText;
-
-        //Contact form Verification
+//Contact form Verification
 document.addEventListener('DOMContentLoaded', () => {
     const contactForm = document.getElementById('contactForm');
     const nameInput = document.getElementById('name');
