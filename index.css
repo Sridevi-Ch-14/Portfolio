@@ -488,3 +488,170 @@ footer {
 .footer-bottom p {
     font-size: 1rem;
 }
+
+
+/* -------------------------------
+   🌐 Mobile & Tablet Responsiveness
+---------------------------------- */
+
+/* For tablets and below */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+  }
+
+
+  nav ul li a{
+    font-size: 1rem;
+    margin-right: 1rem;
+  }
+
+  .home{
+    margin-top: 15rem;
+  }
+
+
+  .details {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 30% 5% 0 5%;
+  }
+
+  .details #matter {
+    width: 90%;
+  }
+
+  #img {
+    width: 60vw;
+    height: 60vw;
+    margin: 2rem 0;
+  }
+
+  .about {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .aboutme #photo {
+    width: 60vw;
+    height: 60vw;
+    margin: 2rem 0;
+  }
+
+  .aboutme #matter {
+    max-width: 90%;
+    margin: 1rem;
+    font-size: 1rem;
+  }
+
+  .project {
+    max-width: 90%;
+    margin: 1rem auto;
+  }
+
+  .projects-container {
+    justify-content: center;
+  }
+
+  .skill-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skill {
+    width: 90%;
+    padding: 0;
+    margin: 1rem;
+  }
+
+  .cert-card {
+    width: 90%;
+  }
+
+  .contact-container,
+  .contact-form {
+    width: 90%;
+    margin: 1rem auto;
+  }
+
+  #submit {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .footer-container {
+    flex-direction: row;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .footer-logo a,
+  .social-icons a {
+    text-align: center;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+
+   .contact-container {
+    padding: 0.52rem;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 0.7rem;
+  }
+
+  #submit {
+    font-size: 1rem;
+  }
+}
+
+/* For smaller phones */
+  h1 {
+    font-size: 1.6rem;
+    margin: 2rem;
+  }
+
+  .details h2 {
+    font-size: 2rem;
+  }
+
+  .project h3,
+  .aboutme h2,
+  .cert-card h3 {
+    font-size: 1.2rem;
+  }
+
+  .projects .info,
+  .aboutme p {
+    font-size: 1rem;
+  }
+
+  .contact-form label,
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 1rem;
+  }
+
+  .certifications h1 {
+    font-size: 2rem;
+  }
+
+  .cert-card {
+    padding: 1rem;
+  }
+
+  .contact-container h1 {
+    font-size: 1.3rem;
+  }
