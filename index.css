@@ -517,7 +517,7 @@ footer {
   }
 
   .home{
-    margin-top: 13rem;
+    margin-top: 13.5rem;
   }
 
 
@@ -536,6 +536,7 @@ footer {
     width: 60vw;
     height: 60vw;
     margin: 2rem 0;
+    box-shadow: 0.25rem 0.4rem 0.25rem deeppink;
   }
 
   .about {
